@@ -17,17 +17,17 @@ const Searchbar = () => {
         py-1.5
         text-base
         font-normal
-        text-earth-red
+        text-office-white
         bg-earth-beige bg-clip-padding
         border border-solid border-gray-300
         rounded
         transition
         ease-in-out
         m-0
-        focus:text-earth-red focus:bg-earth-beige focus:border-earth-red focus:outline-none
+        focus:text-office-white focus:bg-earth-beige focus:border-earth-red focus:outline-none
       "
       id="exampleSearch"
-      placeholder="Search quieries"
+      placeholder="Search"
     />
   </div>
 </div>

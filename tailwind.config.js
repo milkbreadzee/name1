@@ -5,8 +5,9 @@ module.exports = {
     extend: {
       colors:{
         'earth-red' : '#e85e56',
-        'earth-beige' : '#f4e9dc',
-        'earth-black' : '#494949'
+        'earth-beige' : '#1D2538',
+        'earth-black' : '#494949',
+        'office-white' : '#E0E1DC'
       }
     },
   },
