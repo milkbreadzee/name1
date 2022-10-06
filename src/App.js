@@ -14,13 +14,14 @@ function App() {
   
     <BrowserRouter>
     <div>
+    <Navbar />
           <Routes>
             <Route path= "/" element = {<Home />}/>
             <Route path="/profile" element = {<Profile />}/> 
             <Route path="/request" element = {<Request />}/>
             <Route path="/lending" element = {<Lending   />}/>
           </Routes>
-          <Navbar />
+          
           
          
           

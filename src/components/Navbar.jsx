@@ -21,7 +21,7 @@ const Navbar = () => {
       
 
        <ul className='hidden md:flex'>
-            <li className='p-4 text-[#C8D5CB]' >
+            <li className='ml-10 p-4 text-[#C8D5CB]' >
               <Link className="navlink" to="/"> HOME</Link> 
               </li>
             <li className='p-4 text-[#C8D5CB]'>
@@ -40,15 +40,15 @@ const Navbar = () => {
 
 
        </div>
-        <div onClick={handleNav} className='block md:hidden'>
+        <div onClick={handleNav} className='block p-5 md:hidden'>
           {
-            !nav ? <AiOutlineClose size ={20}/> : <AiOutlineMenu size = {20} />
+            !nav ? <AiOutlineClose size ={35}/> : <AiOutlineMenu size = {35} />
           }
         </div>
         <div className={!nav ? 'fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-[#1D2538] ease-in-out duration-500' : 'fixed left-[-100%]'}>
-        <h1 className='w-full text-3xl font-bold text-[#5B868D] p-4'> critter.</h1>
+      
             <ul>
-            <li className='p-4 border-b border-r-gray-600'>HOME</li>
+            <li className=' p-4 border-b border-r-gray-600'>HOME</li>
             <li className='p-4 border-b border-r-gray-600'>CONTACT</li>
             <li className='p-4 border-b border-r-gray-600'>LENDING</li>
             <li className='p-4 border-b border-r-gray-600'>PROFILE</li>
