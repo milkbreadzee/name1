@@ -1,5 +1,6 @@
 import React from "react"
 
+
 export function Profile() {
 
 
@@ -15,18 +16,19 @@ export function Profile() {
                 ">Jozef</h1>
                 <p className="m-auto text-gray-600">asian/bbg</p>
              </div>
-         
              <div className="flex  justify-between items-center text-gray-400">
-                <h1> posts</h1>
-                <h1> books</h1>
-                <h1> notes</h1>
+               
         </div>
+        
+        <div>
+            <a href="#books"> books</a>
+        
+        </div>
+        
 
         </div>
-       
-          
-        
       </div>
+
 
 
 

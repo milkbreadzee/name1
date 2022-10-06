@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import {Profile} from "./pages/Profile"
-import {Route, Routes} from "react-router-dom"
+import {HashRouter, Route, Routes} from "react-router-dom"
 import { BrowserRouter } from 'react-router-dom';
 import Home from "./pages/Home";
 import Request from './pages/Request';
@@ -9,9 +9,10 @@ import Lending from './pages/Lending';
 
 
 
+
 function App() {
   return (
-  
+    
     <BrowserRouter>
     <div>
     <Navbar />
@@ -20,7 +21,10 @@ function App() {
             <Route path="/profile" element = {<Profile />}/> 
             <Route path="/request" element = {<Request />}/>
             <Route path="/lending" element = {<Lending   />}/>
+            
           </Routes>
+
+        
           
           
          
@@ -30,6 +34,7 @@ function App() {
           
     </div>
     </BrowserRouter>
+   
     
   );
 }
